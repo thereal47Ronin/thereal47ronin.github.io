@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>yingyang backup</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; max-width: 44rem; padding: 3rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: Canvas; color: CanvasText;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  .sub { opacity: .65; margin: 0 0 2rem; }
+  h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; opacity: .6; margin-top: 2.5rem; }
+  code { background: rgba(127,127,127,.16); padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid rgba(127,127,127,.25); font-size: .875rem; opacity: .7; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+  <h1>yingyang backup</h1>
+  <p class="sub">A private, single-user backup tool.</p>
+
+  <p>
+    <strong>yingyang backup</strong> is a personal utility that copies files from the owner's own
+    computer to the owner's own Google Drive account. It exists so that one person's work is not
+    lost when a machine dies. There are no other users, no sign-up, and no service to join.
+  </p>
+
+  <h2>What it does</h2>
+  <p>
+    On a schedule, it compares a local folder with a folder in Google Drive and uploads whatever
+    changed. Files are encrypted before they leave the machine. Nothing is ever read back out of
+    Drive except the backup itself, on the day a restore is needed.
+  </p>
+
+  <h2>What it does not do</h2>
+  <p>
+    It does not look at, index, analyse or share anything else in the Drive account. It does not
+    collect analytics, and it does not talk to any server other than Google's.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>How the Google account data is handled: <a href="./privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    Contact: <a href="mailto:yingyangdesk@euploading.com">yingyangdesk@euploading.com</a>
+  </footer>
+</body>
+</html>
